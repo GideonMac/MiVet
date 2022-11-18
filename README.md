@@ -1,1 +1,1 @@
-# MiVet
+Mi-Vet is a mobile and web app startup whose mission is to streamline equine veterinary care through the use of technology. Mi-Vet is an MVP and due to the proprietarty nature of the code, I can only provide snippets of my code. This repository contains SQL, .NET, and React code for the Products feature.
