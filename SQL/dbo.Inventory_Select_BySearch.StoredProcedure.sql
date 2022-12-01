@@ -64,7 +64,8 @@ SELECT i.[Id]
       ,i.[DateModified]
       ,i.[CreatedBy]
       ,i.[ModifiedBy]
-	  , TotalCount = COUNT(1) OVER()
+      , TotalCount = COUNT(1) OVER()
+      
 FROM	dbo.Inventory AS i
 		inner join dbo.Products AS p
 		ON i.ProductId = p.Id
